@@ -8,10 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Employee {
 String name,add,gender;
 int id,sal;
-Employee()
-{
-	
-}
+Employee(){}
 public Employee(String name, String add, String gender, int id, int sal) {
 	super();
 	this.name = name;
